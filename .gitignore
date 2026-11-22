@@ -1,0 +1,8 @@
+.DS_Store
+*.pages
+*.ova
+*.iso
+*.vdi
+*.qcow2
+__pycache__/
+.vscode/
