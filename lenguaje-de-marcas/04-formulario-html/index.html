@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Inscripción al Grupo Scout</title>
+</head>
+<body>
+    <h1 style="color:indigo; font-size:36px; text-align:center">Formulario de Inscripción</h1>
+
+    <p style="text-align:center;"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/World_Scout_Emblem.png?" alt="World Scout" width="75" style="border-radius: 100px; padding: 10px; border: 1px solid #ccc;"></p>
+
+    <form action="formulario.php" method="post">
+        <fieldset style="background-color:lavender; border:solid indigo">
+            <legend style="color:indigo; font-size:24px; text-align:center"><b>Datos Personales del menor</b></legend>
+            <label style="color:indigo" for="nombre"><b>Nombre:</b></label>
+            <p><input type="text" id="nombre" name="nombre" required style="border:1px solid indigo; padding:2.5px"></p>
+
+            <label style="color:indigo" for="apellidos"><b>Apellidos:</b></label>
+            <p><input type="text" id="apellidos" name="apellidos" required style="border:1px solid indigo; padding:2.5px"></p>
+
+            <label style="color:indigo" for="fecha_nacimiento"><b>Fecha de nacimiento:</b></label>
+            <p><input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required style="border:1px solid indigo; padding:2.5px"></p>
+
+            <label style="color:indigo" for="localidad"><b>Localidad:</b></label>
+            <p><select id="localidad" name="localidad" required style="border:1px solid indigo; padding:2.5px">
+                <option value="">Selecciona una localidad</option>
+                <option value="Jerez_de_la_Frontera">Jerez de la Frontera</option>
+                <option value="Cadiz">Cádiz</option>
+                <option value="El_Puerto_de_Santa_Maria">El Puerto de Santa María</option>
+                <option value="Rota">Rota</option>
+            </select></p>
+
+            <p style="color:indigo"><b>Aficiones</b></p>
+            <p><input type="checkbox" id="deportes" name="aficiones" value="deportes">
+                <label for="deportes">Deportes</label>
+                <input type="checkbox" id="musica" name="aficiones" value="musica">
+                <label for="musica">Música</label>
+                <input type="checkbox" id="lectura" name="aficiones" value="lectura">
+                <label for="lectura">Lectura</label>
+                <input type="checkbox" id="tecnologia" name="aficiones" value="tecnologia">
+                <label for="tecnologia">Tecnología</label>
+            </p>
+
+            <p><b><label style="color:indigo" for="observaciones">Observaciones</label></b></p>
+                <textarea name="observaciones" id="observaciones" rows="10" cols="80" style="border:1px solid indigo"></textarea>
+          
+        </fieldset>
+        <fieldset style="background-color:lavender; border:solid indigo">
+            <legend style="color:indigo; font-size:24px; text-align:center"><b>Datos Personales del padre/madre o tutor</b></legend>
+            <label style="color:indigo" for="nombre_p"><b>Nombre:</b></label>
+            <p><input type="text" id="nombre_p" name="nombre_p" required style="border:1px solid indigo; padding:2.5px"></p>
+            
+            <label style="color:indigo" for="apellidos_p"><b>Apellidos:</b></label>
+            <p><input type="text" id="apellidos_p" name="apellidos_p" required style="border:1px solid indigo; padding:2.5px"></p>
+
+            <label style="color:indigo" for="telefono_p"><b>Teléfono de contacto:</b></label>
+            <p><input type="tel" id="telefono_p" name="telefono_p" required style="border:1px solid indigo; padding:2.5px"></p>
+
+            <label style="color:indigo" for="email"><b>Correo electrónico:</b></label>
+            <p><input type="email" id="email" name="email" required style="border:1px solid indigo; padding:2.5px"></p>
+
+            <p style="color:indigo"><b>Periodicidad de pago:</b></p>
+            <p><input type="radio" id="mensual" name="pago" value="mensual" checked>
+                <label for="mensual">Mensual</label>
+                <input type="radio" id="trimestral" name="pago" value="trimestral">
+                <label for="trimestral">Trimestral</label>
+                <input type="radio" id="anual" name="pago" value="anual">
+                <label for="anual">Anual</label>
+            </p>
+
+            <p style="color:indigo"><b>Comunicaciones</b></p> 
+            <p><input type="checkbox" id="news" name="news" value="si">
+            <label style="color:indigo" for="news">Acepto recibir comunicaciones y novedades</label></p>
+
+        </fieldset>
+        <fieldset style="background-color:lavender; border:solid indigo">
+            <legend style="color:indigo; font-size:24px; text-align:center"><b>Información adicional</b></legend>
+        <p style="color:indigo;"><b>¿Quiénes somos?</b></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MYzQHxQzxWs?si=k4RQXEe4FRsM06ws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <p><a href="https://www.scouts.es/" target="_blank">Movimiento Scout Católico de España</a></p>
+            <p><a href="https://scoutsur.com" target="_blank">Movimiento Scout Católico de Andalucía</a></p>
+        </fieldset>
+        <fieldset style="background-color:lavender; border:solid indigo">
+            <legend style="color:indigo; font-size:24px; text-align:center"><b>Datos de acceso</b></legend>
+                <label style="color:indigo" for="user"><b>Correo electrónico:</b></label>
+                <p><input type="email" id="user" name="user" required style="border:1px solid indigo; padding:2.5px"></p>
+                <label style="color:indigo" for="password"><b>Contraseña:</b></label>
+                <p><input type="password" id="password" name="password" required style="border:1px solid indigo; padding:2.5px"></p>
+        </fieldset>
+        <p style="text-align:center"><button type="submit">Enviar</button>
+        <button type="reset">Borrar</button></p>
+    </form>
+    <p style="text-align:center"><img src="https://scouts.es/wp-content/uploads/2021/02/logo.png" alt="Scouts Católicos de España" width="150" style="border: 1px solid;"></p>
+</body>
+</html>
