@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE catálogo SYSTEM "peliculas.dtd">
+<catálogo>
+    <película código="p1" país="EE.UU.">
+        <título>Inception</título>
+        <director>Christopher Nolan</director>
+        <año>2010</año>
+        <actores>
+            <actor rol="protagonista">Leonardo DiCaprio</actor>
+            <actor rol="secundario">Marion Cotillard</actor>
+            <actor rol="figurante">Talulah Riley</actor>
+        </actores>
+    </película>
+    <película código="p2" país="EE.UU.">
+        <título>The Matrix</título>
+        <director>Lana Wachowski, Lilly Wachowski</director>
+        <año>1999</año>
+        <actores>
+            <actor rol="protagonista">Keanu Reeves</actor>
+            <actor rol="secundario">Laurence Fishburne</actor>
+            <actor rol="figurante">Ada Nicodemou</actor>
+        </actores>
+    </película>
+    <película código="p3" país="EE.UU.">
+        <título>Interstellar</título>
+        <director>Christopher Nolan</director>
+        <año>2014</año>
+        <actores>
+            <actor rol="protagonista">Matthew McConaughey</actor>
+            <actor rol="secundario">Anne Hathaway</actor>
+            <actor rol="figurante">Leah Cairns</actor>
+        </actores>
+    </película>
+    <película código="p4" país="EE.UU.">
+        <título>The Godfather</título>
+        <director>Francis Ford Coppola</director>
+        <año>1972</año>
+        <actores>
+            <actor rol="protagonista">Marlon Brando</actor>
+            <actor rol="secundario">Al Pacino</actor>
+            <actor rol="figurante">Sofia Coppola</actor>
+        </actores>
+    </película>
+    <película código="p5" país="EE.UU.">
+        <título>Pulp Fiction</título>
+        <director>Quentin Tarantino</director>
+        <año>1994</año>
+        <actores>
+            <actor rol="protagonista">John Travolta</actor>
+            <actor rol="secundario">Uma Thurman</actor>
+            <actor rol="figurante">Steve Buscemi</actor>
+        </actores>
+    </película>
+</catálogo>

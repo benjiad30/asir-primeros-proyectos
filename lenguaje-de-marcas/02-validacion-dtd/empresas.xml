@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE empresa SYSTEM "empresas.dtd">
+<empresa>
+    <empleado id="e1" contrato="fijo" puesto="desarrollador">
+        <nombre>Juan Pérez</nombre>
+        <edad>30</edad>
+    </empleado>
+    <empleado id="e2" contrato="temporal" puesto="diseñador">
+        <nombre>María López</nombre>
+        <edad>25</edad>
+    </empleado>
+    <empleado id="e3" contrato="practicas">
+        <nombre>Carlos García</nombre>
+        <edad>28</edad>
+    </empleado>
+    <proyecto id="p1" lider="e1" miembros="e2 e3">
+        <titulo>Nueva web corporativa</titulo>
+    </proyecto> 
+    <proyecto id="p2" lider="e2" miembros="e1 e3">
+        <titulo>Proyecto 2</titulo>
+    </proyecto>
+    <tarea id="t1" asignadoA="e1" estado="en_progreso" prioridad="alta">
+        <descripcion>Tarea 1</descripcion>
+    </tarea>
+    <tarea id="t2" asignadoA="e2" estado="pendiente" prioridad="media">
+        <descripcion>Tarea 2</descripcion>
+    </tarea>
+    <tarea id="t3" asignadoA="e3" estado="completada" prioridad="baja">
+        <descripcion>Tarea 3</descripcion>
+    </tarea>
+</empresa>
