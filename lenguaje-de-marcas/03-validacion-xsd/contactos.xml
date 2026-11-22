@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contactos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="contactos.xsd">
+   <contacto id="c1">
+      <nombre>Jose</nombre>
+      <telefono>600000000</telefono>
+      <correo>jose@example.com</correo>
+   </contacto>
+</contactos>
