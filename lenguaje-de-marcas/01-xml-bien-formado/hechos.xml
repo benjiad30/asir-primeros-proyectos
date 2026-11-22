@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hechos>
+    <hecho>
+        <descripcion>Se crea el primer sitio web público en el CERN.</descripcion>
+        <fecha>
+            <dia>6</dia>
+            <mes>8</mes>
+            <año>1991</año>
+        </fecha>
+    </hecho>
+
+    <hecho>
+        <descripcion>Se lanza el sistema operativo Windows 95.</descripcion>
+        <fecha>
+            <dia>24</dia>
+            <mes>8</mes>
+            <año>1995</año>
+        </fecha>
+    </hecho>
+
+    <hecho>
+        <descripcion>Se presenta el primer iPhone</descripcion>
+        <fecha>
+            <dia>9</dia>
+            <mes>1</mes>
+            <año>2007</año>
+        </fecha>
+    </hecho>
+</hechos>

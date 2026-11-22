@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+    <libro>
+        <titulo>Programación &amp; Desarrollo Web</titulo>
+        <autor>Laura Gómez</autor>
+        <editorial>TechBooks</editorial>
+        <precio>29.99 $</precio>
+        <descripcion>Este libro explica por qué 5 &gt; 3 en programación y cómo usar operadores como &lt; y &gt; correctamente. Incluye ejemplos como &quot;if (a &lt; b)&quot; y el uso del símbolo &amp; en código HTML.</descripcion>
+    </libro>
+
+    <libro>
+        <titulo>XML y Estándares Modernos</titulo>
+        <autor>Carlos Pérez</autor>
+        <editorial>Data &amp; Systems</editorial>
+        <precio>34.50 $</precio>
+        <descripcion>Aprenderás a estructurar documentos como &lt;libro&gt; y &lt;autor&gt; sin errores. El autor afirma: &quot;XML es más estricto que HTML&quot; y muestra casos donde 10 &gt; 2 y 2 &lt; 10 deben escribirse correctamente</descripcion>
+    </libro>
+
+    <libro>
+        <titulo>Arquitectura de Aplicaciones Web</titulo>
+        <autor>Ana Martínez</autor>
+        <editorial>Code &amp; Cloud</editorial>
+        <precio>41.00 $</precio>
+        <descripcion>El capitulo &quot;Cliente &amp; Servidor&quot; explica cómo funciona la comunicación cuando un valor es mayor que 100 &gt; 50 o menor que 20 &lt; 30. También analiza el uso de etiquetas como &lt;script&gt; dentro de ejemplos reales.</descripcion>
+    </libro>
+</libros>

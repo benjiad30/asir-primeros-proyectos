@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciudades>
+    <ciudad>
+        <nombre>Tokio</nombre>
+        <pais>Japón</pais>
+        <continente>Asia</continente>
+    </ciudad>
+
+    <ciudad>
+        <nombre>Buenos Aires</nombre>
+        <pais>Argentina</pais>
+        <continente>América</continente>
+    </ciudad>
+
+    <ciudad>
+        <nombre>Berlín</nombre>
+        <pais>Alemania</pais>
+        <continente>Europa</continente>
+    </ciudad>
+</ciudades>
